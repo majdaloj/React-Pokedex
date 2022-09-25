@@ -1,0 +1,86 @@
+.settings-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--settings-overlay-colour);
+  z-index: 1000;
+}
+
+.settings {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--settings-bg-colour);
+  padding: 50px;
+  font-weight: 600;
+  z-index: 1000;
+  border-radius: 25px;
+  font-family: Roboto Mono;
+  text-transform: uppercase;
+}
+
+.settings-title {
+  color: var(--colour-5);
+}
+
+.settings-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-icon {
+  align-self: flex-end;
+}
+
+.close-icon:hover {
+  opacity: 80%;
+  filter: saturate(1.2);
+}
+
+.settings-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 230px;
+  color: var(--text-colour);
+}
+
+.settings-pokedex-name {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+  color: var(--text-colour);
+}
+
+.settings-pokedex-name input {
+  font-family: Roboto Mono;
+  height: 25px;
+  width: 200px;
+  border-radius: 10px;
+  margin: 0 20px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.settings-pokedex-name button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  font-family: Roboto Mono;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: var(--colour-2);
+  cursor: pointer;
+  color: var(--text-colour);
+}
+
+.settings-pokedex-name button:hover {
+  opacity: 80%;
+  filter: saturate(1.2);
+}

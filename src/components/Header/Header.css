@@ -1,0 +1,35 @@
+.main-header {
+  height: 10vh;
+  width: 100vw;
+  background-color: var(--colour-5);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 500;
+}
+
+.pokemon-title {
+  font-family: Aldrich;
+  font-size: 2rem;
+  color: var(--colour-2);
+  letter-spacing: 2px;
+  margin: 0 20px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.settings-icon {
+  margin: 0 30px;
+  fill: none;
+}
+
+.settings-icon:hover {
+  position: relative;
+  opacity: 80%;
+  filter: saturate(1.2);
+}

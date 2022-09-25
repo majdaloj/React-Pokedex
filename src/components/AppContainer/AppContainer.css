@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto+Mono:wght@400;600&display=swap");
+
+:root {
+  /* light colour pallete */
+  --colour-1: #f2f2f2;
+  --colour-2: #f2e750;
+  --colour-3: #f2c849;
+  --colour-4: #f29e38;
+  --colour-5: #f25430;
+  --text-colour: #333;
+  --bg-colour: white;
+  --settings-bg-colour: white;
+  --settings-overlay-colour: #000000b3;
+  --bar-colour: #f2f2f2;
+
+  /* dark colour pallete */
+  /* --colour-5: #956fa6;
+  --colour-4: #4f1a73;
+  --colour-3: #3d1259;
+  --colour-2: #2a0940;
+  --colour-1: #180326;
+  --text-colour: #dacce0;
+  --bg-colour: #0c0411;
+  --bar-colour: #2a0940; 
+  --settings-bg-colour: #3f2a4d;
+  --settings-overlay-colour: #ffffffb3;
+  */
+}
+
+body {
+  background-color: var(--bg-colour);
+}

@@ -1,0 +1,52 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  font-family: Roboto Mono;
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--text-colour);
+  height: calc(90vh - 100px);
+  text-transform: uppercase;
+}
+
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-container p {
+  margin: 0 100px 0 0;
+}
+
+.wobuffet {
+  width: 300px;
+  height: 300px;
+}
+
+.btn-back {
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: var(--colour-4);
+  border-radius: 20px;
+}
+
+.btn-back:hover {
+  opacity: 80%;
+}
+
+.decor-circle {
+  height: 450px;
+  width: 800px;
+  background-color: var(--colour-2);
+  opacity: 20%;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  z-index: -1;
+}

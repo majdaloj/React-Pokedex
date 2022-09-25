@@ -1,0 +1,38 @@
+{
+  "variableNames": {
+    "colour1": "--colour-1",
+    "colour2": "--colour-2",
+    "colour3": "--colour-3",
+    "colour4": "--colour-4",
+    "colour5": "--colour-5",
+    "textColour": "--text-colour",
+    "bgColour": "--bg-colour",
+    "barColour": "--bar-colour",
+    "settingsBgColour": "--settings-bg-colour",
+    "settingsOverlayColour": "--settings-overlay-colour"
+  },
+  "dark": {
+    "colour1": "#180326",
+    "colour2": "#2a0940",
+    "colour3": "#3d1259",
+    "colour4": "#4f1a73",
+    "colour5": "#956fa6",
+    "textColour": "#dacce0",
+    "bgColour": "#0c0411",
+    "barColour": "#2a0940",
+    "settingsBgColour": "#3f2a4d",
+    "settingsOverlayColour": "#ffffffb3"
+  },
+  "light": {
+    "colour1": "#f2f2f2",
+    "colour2": "#f2e750",
+    "colour3": "#f2c849",
+    "colour4": "#f29e38",
+    "colour5": "#f25430",
+    "textColour": "#333",
+    "bgColour": "#fff",
+    "barColour": "#f2f2f2",
+    "settingsBgColour": "#fff",
+    "settingsOverlayColour": "#000000b3"
+  }
+}

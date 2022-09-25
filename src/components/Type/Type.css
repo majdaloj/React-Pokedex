@@ -1,0 +1,9 @@
+.type-badge {
+  margin: 0 10px;
+  font-size: clamp(0.5rem, 1.5vw, 1rem);
+  background-color: #68a090;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font: Roboto Mono;
+}

@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: var(--colour-2);
+  color: var(--text-colour);
+  width: max(275px, 90%);
+  height: 75px;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-family: Roboto Mono;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 10px auto;
+  padding: 10px 30px;
+  border-radius: 50px 20px 20px 50px;
+  cursor: pointer;
+}
+
+.item:not(.invisible):hover {
+  opacity: 80%;
+  filter: saturate(1.2);
+}
+
+.item-active {
+  background-color: var(--colour-3);
+}
+
+.pokeball,
+.index {
+  margin-right: 30px;
+}
+
+.invisible {
+  background-color: var(--colour-1);
+  opacity: 50%;
+  cursor: default;
+}

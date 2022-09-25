@@ -1,0 +1,72 @@
+.toggle {
+  height: 30px;
+  width: 60px;
+  background-color: var(--colour-1);
+  border-radius: 20px;
+  position: relative;
+}
+
+.toggle-slider {
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(20%, -50%);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.toggle-active {
+  background-color: var(--colour-5);
+  animation: toggle-forward 1s ease;
+}
+
+.toggle-slider-active {
+  transform: translate(120%, -50%);
+  animation: toggle-slide-forward 1s ease;
+}
+
+.toggle-slide-backward-animation {
+  animation: toggle-slide-backward 1s ease;
+}
+.toggle-backward-animation {
+  animation: toggle-backward 1s ease;
+}
+
+@keyframes toggle-slide-forward {
+  0% {
+    transform: translate(20%, -50%);
+  }
+  100% {
+    transform: translate(120%, -50%);
+  }
+}
+
+@keyframes toggle-forward {
+  0% {
+    background-color: var(--colour-1);
+  }
+  100% {
+    background-color: var(--colour-5);
+  }
+}
+
+@keyframes toggle-slide-backward {
+  0% {
+    transform: translate(120%, -50%);
+  }
+  100% {
+    transform: translate(20%, -50%);
+  }
+}
+
+@keyframes toggle-backward {
+  0% {
+    background-color: var(--colour-5);
+  }
+  100% {
+    background-color: var(--colour-1);
+  }
+}
